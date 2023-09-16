@@ -1,0 +1,121 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+  }
+    body{
+  background-color: bisque;
+        
+        background-size: cover;
+    }
+  .Menu_bar i{
+  color:lightcyan;
+}
+
+.logo{
+    border: 0px solid white;
+    height: 80px;
+    width: 100px;
+    float: left;
+    border-radius: 50px;
+}
+.Menu_bar ul{
+    list-style: none;
+    
+  }.search{
+    margin-right: 1px;
+    margin-left: 120px;
+    height:30px ;
+    width:170px ;
+    margin-top: 25px;
+    border-radius: 50px;
+}.btn1
+{
+    height: 30px;
+    width: 90px;
+    margin: 25px;
+    background-color: gray;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.Menu_bar  {
+  background-color:black;
+  height: 80px;
+  width:100%;
+  display:flex;
+  padding:0px;
+  margin-top: 0%
+}
+
+.Menu_bar ul li {
+  padding:10px 60px ;
+  position::relative;
+  float:left;
+  font-size: 45PX;
+  
+  
+  
+  
+  
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+a:link{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+}
+.Menu_bar ul li a{
+  display: block ;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size:20px ;
+  font-weight: bold;
+}
+
+.Menu_bar ul li a:hover{
+  
+  background-color:white;
+  border-radius: 5px;
+}
+.main{
+    border: 0px solid black;
+    height: 2300px;
+    width: 60%;
+    margin-left: 110px;
+    margin-top: 45px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}.footer{
+    background-color:black;
+}.COLOg{
+    color:white;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+

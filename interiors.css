@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+    background-color:black;
+  background-repeat: no-repeat;
+  background-size:contain;
+  }
+  .im{
+    margin-top: 100px;
+    margin-left: 240px;
+    border-radius: 10px;
+    filter: drop-shadow(-30px -30px 30px black);
+    
+  }
+    .Menu_bar ul{
+      list-style: none;
+      
+    }
+  
+  .Menu_bar  {
+    background-color:none;
+    height: 80px;
+  }
+  
+  .Menu_bar ul li {
+    padding:10px 30px ;
+    position: relative;
+    float:left;
+    font-size: 25PX;
+    font-weight: bold;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+  }
+  
+  .Menu_bar ul li:hover {
+     background-color:none;
+    display: block;
+    border-radius: 3px;
+  
+  }
+  .container{
+      margin-top: 0px;
+      width:100%;
+      display: flex;
+      height: 400px;
+      background-image:url("https://free4kwallpapers.com/uploads/originals/2015/09/25/blurred-web-backgrounds.jpg");
+    
+      
+    }
+    .container9{
+      margin-top: 0px;
+      width:100%;
+      display: flex;
+      height: 400px;
+      background-color: black;
+    
+      
+    }
+    
+  .container5{
+      margin-top: 0px;
+      width:100%;
+      display: flex;
+      height: 400px;
+      background-color: black;}
+    .container1{
+      margin-top: 0px;
+      width:100%;
+      display: flex;
+      height: 300px;
+      background-color: black;
+      
+    }
+    .container2{
+      
+      margin-top: 0px;
+      width:100%;
+      display: flex;
+      justify-content: space-between;
+      height: 600px;
+      background-color:antiquewhite;}
+    
+  
+    
+  .box{
+      background-color:none;
+      color: blanchedalmond;
+      width:310px;
+      height: 240px;
+      font-size: 20px;
+      padding: 15px;
+       margin-left:140px;
+      text-align: center;  
+      border-radius: 18px;
+      display:flex;
+      margin-top: 50px;
+  
+    }
+    .colo{
+      background-color:none;
+      color: blanchedalmond;
+      width:310px;
+      height: 240px;
+      font-size: 20px;
+      padding: 0px;
+       margin-left:140px;
+      text-align: center;  
+      border-radius: 18px;
+      display:flex;
+      box-shadow: 10px,10px,10px,10px;
+      
+      margin-top: 60px;
+    }
+    .ul{
+    list-style: none;
+  }
+  h1{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    color: red;
+  }
+  .fb{
+    margin-left: 750px;
+  }
+  .tt{
+    margin-left: 20px;
+  }
+  .ss{
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  
+  
+  
+    .Menu_bar i{
+    color:lightcyan;
+  }
+  
+  .logo{
+      border: 0px ;
+      height: 80px;
+      width: 100px;
+      float: left;
+      border-radius: 50px;
+  }
+  .Menu_bar ul{
+      list-style: none;
+      
+    }
+  
+  .Menu_bar  {
+    background-color:blanchedalmond;
+    height: 80px;
+    width:100%;
+    display:flex;
+    padding:0px;
+    margin-top: 0px;
+  }
+  
+  .Menu_bar ul li {
+    padding:10px 60px ;
+    position::relative;
+    float:left;
+    font-size: 25PX;
+   
+  
+    
+    
+    
+    
+  }
+  a:link{
+  
+      text-decoration: none;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size:xx-large;
+  }
+  .Menu_bar ul li a{
+    display: block ;
+    color: black;
+    font-size:20px ;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .Menu_bar ul li a:hover{
+    
+    background-color:white;
+    border-radius: 5px;
+  }
+  .footer{
+      background-color:bisque;
+  }
+  .COLOg{
+      color:black;
+  }
+  .b1{
+   height:240px;
+   width: 310px;
+   border-radius: 50px;
+   filter: drop-shadow(-10px -10px 20px white);
+   
+  
+  }
+  .black{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .first{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      margin-top: 30px;
+      color: white;
+  }.first2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      margin-top: 130px;
+      color: black;
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  .search{
+      margin-right: 1px;
+      margin-left: 120px;
+      height:30px ;
+      width:170px ;
+      margin-top: 25px;
+      border-radius: 50px;
+  }.btn1
+  {
+      height: 30px;
+      width: 90px;
+      margin: 25px;
+      background-color: gray;
+      color: white;
+      border-radius: 50px;
+  
+  }
+  .pers{
+      color: white;
+      font-size: 20px;
+  }
+  .pers2{
+      color: black;
+      font-size: 20px;
+  }
+  .btn {
+      height: 30px;
+      width: 90px;
+      margin: 25px;
+      background-color: gray;
+      color: white;
+      border-radius: 50px;
+  }.text{
+  
+      border-radius: 50px;
+  }.box6{
+      border: 0px solid black;
+      height:600px ;
+      width: 50%;
+      
+      
+  }
+  .pic{
+      border: 0px solid black;
+      height: 400px;
+  
+      margin-top: 80px;
+  }
+  .picim{
+      height: 400px;
+      width: 100%;
+      border-radius: 50px;
+  }
